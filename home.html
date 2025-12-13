@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="desktop.css">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width:1100px)">
+        <title>Senri's Tab</title>
+    </head>
+    <body>
+
+        <div class="header">
+            <nav>
+                <img src="https://avatars.githubusercontent.com/u/120725234?s=400&u=50c43c7ce3f90b619bf7c0a9b0af699630fd53de&v=4" class="logo">
+            </nav>
+        </div>
+
+        <div class="main-content">
+
+            <h1>Welcome!</h1>
+
+            <div class="selector">
+
+                <h2>Choose your Destination and the Day you're travelling!</h2>
+
+                <form method="post" class="opts" id="opts">
+                    <label>Destination:</label>
+                    <select name="dest" id="dest">
+                        <option value="Koropi">Κορωπί</option>
+                        <option value="Doukissis">Δουκίσσης</option>
+                    </select>
+
+                    <label>Day:</label>
+                    <select name="day" name="day" id="day">
+                        <option value="Mon">Δευτέρα</option>
+                        <option value="Tue">Τρίτη</option>
+                        <option value="Wed">Τετάρτη</option>
+                        <option value="Thu">Πέμπτη</option>
+                        <option value="Fri">Παρασκευή</option>
+                        <option value="Sat">Σάββατο</option>
+                        <option value="Sun">Κυριακή</option>
+                    </select>
+                    
+                    <button type="submit" class="butt">Show Schedule</button>
+                </form>
+
+                <div class="results" id="results"></div>
+
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
