@@ -48,7 +48,7 @@ function makeTable(title, rows, dest)
             tr.innerHTML = `
                 <td>${r[0]}</td>
                 <td>${r[3]}</td>
-                <td>${r[1]}</td>
+                <td>${r[1]}'</td>
                 <td>${r[2]}</td>
             `;
             table.appendChild(tr);
@@ -82,7 +82,7 @@ function makeTable(title, rows, dest)
             const tr = document.createElement("tr");
             tr.innerHTML = `
                 <td>${r[0]}</td>
-                <td>${r[1]}</td>
+                <td>${r[1]}'</td>
                 <td>${r[2]}</td>
             `;
             table.appendChild(tr);
