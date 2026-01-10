@@ -24,8 +24,8 @@ function makeTable(title, rows, dest)
         {
             table.innerHTML = `
                 <tr>
-                    <th>390B</th>
-                    <th>390B (Ππδμτρ)</th>
+                    <th>309B</th>
+                    <th>309B (Ππδμτρ)</th>
                     <th>Αναμονή</th>
                     <th>Μετρό</th>
                 </tr>
@@ -35,8 +35,8 @@ function makeTable(title, rows, dest)
         {
             table.innerHTML = `
                 <tr>
-                    <th>390B</th>
-                    <th>390B (Ππδμτρ)</th>
+                    <th>309B</th>
+                    <th>309B (Ππδμτρ)</th>
                     <th>Αναμονή</th>
                     <th>Προαστιακός</th>
                 </tr>
@@ -63,7 +63,7 @@ function makeTable(title, rows, dest)
                 <tr>
                     <th>Μετρό</th>
                     <th>Αναμονή</th>
-                    <th>390B</th>
+                    <th>309B</th>
                 </tr>
             `;
         }
@@ -73,7 +73,7 @@ function makeTable(title, rows, dest)
                 <tr>
                     <th>Προαστιακός</th>
                     <th>Αναμονή</th>
-                    <th>390B</th>
+                    <th>309B</th>
                 </tr>
             `;
         }
