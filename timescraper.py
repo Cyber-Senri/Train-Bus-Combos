@@ -15,7 +15,7 @@ def fetch_or_cache(url, cache_key):
     try:
         resp = requests.post(url, timeout=5)
         resp.raise_for_status()
-        print(f"✔ LIVE: {cache_key}")
+        print(f"LIVE: {cache_key}")
         data = resp.json()
 
         # Update cache file with latest data
@@ -32,7 +32,7 @@ def fetch_or_cache(url, cache_key):
         return data
 
     except Exception as e:
-        print(f"⚠ Using CACHE for {cache_key}")
+        print(f"Using CACHE for {cache_key}")
         with open("cached_data.json", "r", encoding="utf-8") as f:
             cache = json.load(f)
         return cache[cache_key]
@@ -176,7 +176,7 @@ def best_times(place: str, day: str):
     B_times = [datetime.strftime(t, "%H:%M") for t in sorted(B_times)]
 
     if place == 'Doukissis':
-        offset = timedelta(minutes=80)
+        offset = timedelta(minutes=75)
         offset_stop = timedelta(minutes=60)
 
         S_Compatible = []
