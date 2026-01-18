@@ -57,7 +57,7 @@ body
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .selector
@@ -183,5 +183,5 @@ table td
     border-color: var(--c3);
     padding: 4px;
     text-align: center;
-    font-size: small;
+    font-size: 14px;
 }
