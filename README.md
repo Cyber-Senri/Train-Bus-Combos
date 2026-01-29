@@ -1,1 +1,2 @@
-A site that loads the best combos for metro/suburban railway to bus 309B for the path Koropi to Doukissis Plakentias and reverse, depending on destination and day of travelling.
+A site to help me plan my commute between Markopoulo and Vrilissia in order to minimize the wait time when I switch from the train to the bus and reverse.
+It displays two arrays with the optimal combinations for the 309B bus times and the metro or suburban railway times, depending on the destination (Koropi if I'm headed to Markopoulo, and Doukissis if I'm headed to Vrilissia) and the day I'm travelling.
