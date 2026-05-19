@@ -76,7 +76,7 @@ def get_train_times(place, day):
 
     if place == 'Doukissis':
         for title, times in results:
-            if bool(re.search(r'Κορωπί προς Ά|Κορωπί προς Π|Κορωπί προς Δ', title.text.strip(), flags=re.I)):
+            if bool(re.search(r'Κορωπί προς Άν|Κορωπί προς Π|Κορωπί προς Δ', title.text.strip(), flags=re.I)):
                 if bool(re.search(r'Μετρό', title.text.strip(), flags=re.I)):
                     if not bool(re.search(r'Σάββατ', title.text.strip(), flags=re.I)):
                         U_WKdays.extend(times)
