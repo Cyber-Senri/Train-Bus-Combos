@@ -89,6 +89,12 @@ body
     gap: 7px;
 }
 
+.destination, .travelday
+{
+    display: flex;
+    gap: 7px;
+}
+
 .selector select
 {
     background-color: var(--c0);
@@ -173,7 +179,11 @@ table th
     padding: 4px;
     text-align: center;
     font-size: smaller;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
 
 table td
 {
