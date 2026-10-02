@@ -100,6 +100,20 @@ body
     font-weight: bold;
 }
 
+.opts
+{
+    display: flex;
+    flex-wrap: wrap; /* allow button to move to next row */
+    justify-content: center; /* center items horizontally */
+    gap: 7px;
+}
+
+.destination, .travelday
+{
+    display: flex;
+    gap: 7px;
+}
+
 .whereto h2
 {
     color: var(--c1);
