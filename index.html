@@ -17,22 +17,26 @@
                 <h2>Choose your Destination and the Day you're travelling!</h2>
 
                 <form method="post" class="opts" id="opts">
-                    <label>Destination:</label>
-                    <select name="dest" id="dest">
-                        <option value="Koropi">Κορωπί</option>
-                        <option value="Doukissis">Δουκίσσης</option>
-                    </select>
+                    <div class="destination">
+                        <label>Destination:</label>
+                        <select name="dest" id="dest">
+                            <option value="Koropi">Κορωπί</option>
+                            <option value="Doukissis">Δουκίσσης</option>
+                        </select>
+                    </div>
 
-                    <label>Day:</label>
-                    <select name="day" name="day" id="day">
-                        <option value="Mon">Δευτέρα</option>
-                        <option value="Tue">Τρίτη</option>
-                        <option value="Wed">Τετάρτη</option>
-                        <option value="Thu">Πέμπτη</option>
-                        <option value="Fri">Παρασκευή</option>
-                        <option value="Sat">Σάββατο</option>
-                        <option value="Sun">Κυριακή</option>
-                    </select>
+                    <div class="travelday">
+                        <label>Day:</label>
+                        <select name="day" name="day" id="day">
+                            <option value="Mon">Δευτέρα</option>
+                            <option value="Tue">Τρίτη</option>
+                            <option value="Wed">Τετάρτη</option>
+                            <option value="Thu">Πέμπτη</option>
+                            <option value="Fri">Παρασκευή</option>
+                            <option value="Sat">Σάββατο</option>
+                            <option value="Sun">Κυριακή</option>
+                        </select>
+                    </div>
                     
                     <button type="submit" class="butt">Show Schedule</button>
                 </form>
