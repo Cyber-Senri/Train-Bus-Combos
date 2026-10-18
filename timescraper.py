@@ -50,7 +50,7 @@ def get_train_times(place, day):
     if place == 'Doukissis':
         response = requests.get('https://www.athenstransport.com/proastiakos/stathmos-koropi/')
         soup = BeautifulSoup(response.content, 'html.parser')
-        content_div = soup.find('div', class_='entry-content clearfix')
+        content_div = soup.find('div', class_='td-page-content tagdiv-type')
     else:
         response = requests.get('https://www.athenstransport.com/proastiakos/stathmos-doukissis-plakentias/')
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -66,7 +66,7 @@ def get_train_times(place, day):
                 results.append((title, times))
 
     else:
-        print('Could not get div')
+        print('Could not get div for ' + place + ', on ' + day)
         exit()
 
     S_WKdays =[]
