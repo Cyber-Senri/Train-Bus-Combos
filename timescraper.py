@@ -66,7 +66,7 @@ def get_train_times(place, day):
                 results.append((title, times))
 
     else:
-        print('Could not get div')
+        print('Could not get div for ' + place + ', on ' + day)
         exit()
 
     S_WKdays =[]
